@@ -4,8 +4,8 @@ const question = document.querySelector(".question");
 const gif = document.querySelector(".gif");
 // Change text and gif when the Yes button is clicked
 yesBtn.addEventListener("click", () => {
-  question.innerHTML = "I LOVE YOU TOO 😘 <3";
-  gif.src = "https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3N3AxNG5hYzJ4cGQ3aXFzOXJuYjl0dHMwbTA3YWRtMXRkNnlzaG5udCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/FJfehKZSVZRXIcIusd/giphy.gif?cid=ecf05e47klhwx3ewooyt55o58pqr9v9iy1wi9iwujybtmmgb&ep=v1_gifs_related&rid=giphy.gif&ct=g";
+  question.innerHTML = "ILY SOOOOOO MUCHHHHHH 💝<3";
+  gif.src = "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExMjFjMWliMTgzaG1vdHkwaXhuN2hmZjk2dTZja3hsbTYwMHVmNWlwMCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/NqcjA3F7khqPen7ouk/giphy.gif?cid=ecf05e47klhwx3ewooyt55o58pqr9v9iy1wi9iwujybtmmgb&ep=v1_gifs_related&rid=giphy.gif&ct=g";
 });
 // Make the No button move randomly on hover
 noBtn.addEventListener("mouseover", () => {
@@ -19,5 +19,6 @@ noBtn.addEventListener("mouseover", () => {
   const randomY = Math.floor(Math.random() * maxY);
   noBtn.style.left = randomX + "px";
   noBtn.style.top = randomY + "px";
+
 
 });
